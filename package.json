@@ -1,0 +1,24 @@
+{
+ "name": "@learning-toolbox/srs-algorithms",
+ "version": "0.0.0",
+ "main": "dist/srs-algorithms.js",
+ "umd:main": "dist/srs-algorithms.umd.js",
+ "module": "dist/srs-algorithms.m.js",
+ "esmodule": "dist/srs-algorithms.modern.js",
+ "types": "dist/index.d.ts",
+ "repository": "https://github.com/learning-toolbox/srs-algorithms.git",
+ "author": "chrisshank <chris.shank.23@gmail.com>",
+ "license": "MIT",
+ "scripts": {
+  "build": "microbundle build -i src/index.ts",
+  "dev": "vite"
+ },
+ "dependencies": {
+  "@xstate/inspect": "^0.2.0",
+  "xstate": "^4.14.1"
+ },
+ "devDependencies": {
+  "microbundle": "^0.12.4",
+  "vite": "^1.0.0-rc.8"
+ }
+}
